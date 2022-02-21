@@ -29,24 +29,9 @@ const routes = [
         component: () => import('../module/admin/user/module.vue')
       },
       {
-        path: '/home/message',
-        name: 'message',
-        component: () => import('../module/admin/user/message.vue')
-      },
-      {
         path: '/home/role',
         name: 'role',
         component: () => import('../module/admin/user/role.vue')
-      },
-      {
-        path: '/home/collect',
-        name: 'collect',
-        component: () => import('../module/admin/user/collect.vue')
-      },
-      {
-        path: '/home/history',
-        name: 'history',
-        component: () => import('../module/admin/user/history.vue')
       },
       {
         path: '/home/game',
